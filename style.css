@@ -13,6 +13,7 @@ html {
     margin-left: 870px;
     margin-right: 20px;
     width: 520px;
+    margin-bottom: 100px;
     
 }
 
@@ -24,6 +25,8 @@ html {
 /* got this to work somehow sometimes this works sometimes this doesn't*/
 .inputBox {
     position: fixed;
+    top: 720px;
+    left: 525px;
 }
 
 .frontStuff {
@@ -90,10 +93,10 @@ html {
 
 #input {
     padding: 14px;
-    margin-left: 500px;
+    /* margin-left: 500px; */
     margin-top: 20px;
     width: 850px;
-    height: 34px;
+    height: 25px;
     font-size: 30px;
     border: 1px solid lightgrey;
     /* background-color: #F2F7F5; */
