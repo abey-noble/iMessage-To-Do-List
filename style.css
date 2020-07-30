@@ -4,15 +4,28 @@ html {
     background-color: white;
     
 }
+/* removes the blue box around it when you click on it */
+input:focus {
+
+    outline: none;
+}
+
+.pointText {
+    margin: 0 auto;
+}
+.pointText.hover {
+    text-decoration: line-through;
+}
+
 
 
 /* the list element */
 .listElement {
     background-color: #4F99F6;
     border-radius: 20px;
-    margin-left: 870px;
-    margin-right: 20px;
-    width: 520px;
+    margin-left: 835px;
+    
+    width: 550px;
     margin-bottom: 100px;
     
 }
@@ -25,8 +38,9 @@ html {
 /* got this to work somehow sometimes this works sometimes this doesn't*/
 .inputBox {
     position: fixed;
-    top: 720px;
-    left: 525px;
+    top: 615px;
+    left: 515px;
+    /* margin-top: 170px; */
 }
 
 .frontStuff {
@@ -60,27 +74,28 @@ html {
 .meUser {
     background-color: #4F99F6;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 870px;
+    
+    margin-left: 815px;
     padding: 10px;
     font-size: 30px;
     text-align: left;
     color: white;
-    width: 500px;
+    width: 550px;
     margin-bottom: 1px;
 }
 
 .uncleGreg {
     background-color: #E9E9EB;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
     margin-left: 20px;
-    width: 500px;
+    width: 550px;
     padding: 10px;
     border-radius: 20px;
     font-size: 30px;
     color: #383839;
     text-align: left;
 }
+
 
 #list{
     text-align: left;
@@ -90,6 +105,8 @@ html {
     /* I need the text-box to naturally wrap around the size of the text */
     /* display: inline; */
 }
+
+
 
 #input {
     padding: 14px;

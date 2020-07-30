@@ -14,6 +14,7 @@ function eraseListItem (event) {
 
 
 
+
 function newItem() {
     console.log("Inside newItem");
     // get text from input store into var item and then display item in console
@@ -42,7 +43,10 @@ function newItem() {
     //but if you wanted to still create the actual function elsewhere another way of doing below is li.onclick = function() {eraseListItem()};
     // but we want the shortest way which is to create all the code for the function and then call it using the event listener
     // instead of that function being placed there altogether you are calling that function
+    // with the parentheses you are calling the function without the parentheses you are referencing the entire function and that's what event listeners take
     li.onclick = eraseListItem;
+
+    
 }
 
 function enterPressed(event){
